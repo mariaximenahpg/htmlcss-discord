@@ -1,0 +1,277 @@
+/* ----------
+RESET
+----------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------
+COMMON
+----------- */
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+/* ----------
+HEADER
+----------- */
+
+header {
+    background-color: #255EE9;
+}
+
+.header-banner {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.container-top {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 25px;
+}
+
+.top-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.elemento {
+    padding-right: 30px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.elemento a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-login {
+    padding: 8px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.btn-login:hover {
+    cursor: pointer;
+}
+
+.banner {
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 75px 15;
+    max-width: 53%;
+}
+
+.top-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.btn-header {
+    margin-top: 30px;
+}
+
+.Scarica {
+    color: black;
+    background-color: white;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.Apri {
+    color: white;
+    background-color: black;
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 15px 20px;
+}
+
+/* ----------
+MAIN
+----------- */
+
+.main-container-1 {
+    padding: 40px 0;
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.text-1 {
+    text-align: left;
+    margin-left: 60px;
+}
+
+main p{
+    font-size: 16px;
+}
+
+.text-1 p {
+    margin-top: 30px;
+}
+
+.main-container-2 {
+    padding: 60px;
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.text-2 {
+    text-align: left;
+    margin-top: 15px;
+    margin-right: 60px;
+}
+
+.text-2 p {
+    margin-top: 30px;
+}
+
+.back {
+    background-color: #F6F6F6;
+}
+
+.main-container-3 {
+    padding: 60px;
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.text-3 {
+    margin-top: 15px;
+    margin-right: 60px;
+    text-align: left;
+}
+
+.text-3 p {
+    margin-top: 30px;
+}
+
+.main-container-4 {
+    padding: 60px;
+    margin: auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.text-4 {
+    margin-top: 30px;
+}
+
+.text-4 p {
+    margin-top: 30px;
+}
+
+.main-bottom {
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 60px;
+}
+
+.main-bottom h2 {
+    margin-bottom: 30px;
+}
+
+.btn-bottom {
+    padding: 15px 20px;
+    background-color: #7289DA;
+    color: white;
+    border-radius: 30px;
+}
+
+/* ----------
+FOOTER
+----------- */
+
+footer {
+    background-color: black;
+}
+
+footer ul {
+    padding-top: 15px;
+    padding-right: 30px;
+}
+
+.container-footer {
+    padding: 30px 0;
+    color: white;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid white;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+}
+
+footer li {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.container-footer li:first-child {
+    color: #7289DA;
+}
+
+.language {
+    color: white;
+}
+
+.ita {
+    height: 15px;
+}
+
+.social-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 60%;
+}
+
+.social-logo li {
+    padding-right: 30px;
+}
+
+.footer-bottom {
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.wave {
+    color: #F6F6F6;
+    margin-bottom: -10px;
+}
+
+.wave-rev {
+    background-color: #F6F6F6;
+}
